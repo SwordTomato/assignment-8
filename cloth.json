@@ -1,0 +1,39 @@
+{
+	"top1":{
+		"brandname": "A.K.O.O Clothing",
+		"price":"200",
+		"pic":"top1.jpg"},
+	"top2":{
+		"brandname": "B.K.T Clothing",
+		"price":"500",
+		"pic":"top2.jpg"},
+	"top3":{
+		"brandname": "K.M.U.T.T Clothing",
+		"price":"7500",
+		"pic":"top3.jpg"},
+	"top4":{
+		"brandname": "Tomato Clothing",
+		"price":"1000",
+		"pic":"top4.jpg"},
+	"top5":{
+			"brandname": "ABC Clothing",
+			"price":"5100",
+			"pic":"top5.jpg"},
+	"top6":{
+			"brandname": "888 Clothing",
+			"price":"888",
+			"pic":"top6.jpg"},
+	"top7":{
+			"brandname": "OMG Clothing",
+			"price":"5010",
+			"pic":"top7.jpg"},
+	"top8":{
+			"brandname": "King Clothing",
+			"price":"5432100",
+			"pic":"top8.jpg"},
+	"top9":{
+			"brandname": "12 Clothing",
+			"price":"500",
+			"pic":"top9.jpg"}
+
+}
