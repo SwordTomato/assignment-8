@@ -1,4 +1,3 @@
-/* General body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,59 +5,52 @@ body {
     padding: 20px;
 }
 
-/* Navigation bar styles */
 #nav-top {
-    background-color: #007bff; /* A nice blue color for the nav bar */
+    background-color: #007bff;
     color: white;
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
 }
 
-/* Container styles */
 #container {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap onto new lines */
-    justify-content: center; /* Center align the items */
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
 }
 
-/* Layer styles */
 #layer {
     display: flex;
-    flex-wrap: wrap; /* Allow children to wrap */
-    justify-content: space-around; /* Space out children evenly */
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
 }
 
-/* Individual item styles */
 #layer div {
-    background-color: white; /* White background for each item */
-    border: 1px solid #ddd; /* Light border */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 200px; /* Set a fixed width */
-    margin: 10px; /* Space between items */
-    padding: 15px; /* Padding inside the item */
-    text-align: center; /* Center text inside the items */
-    transition: transform 0.2s; /* Smooth scaling on hover */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
 }
 
-/* Item hover effect */
 #layer div:hover {
-    transform: scale(1.05); /* Slightly enlarge the item on hover */
+    transform: scale(1.05);
 }
 
-/* Image styles */
 #layer img {
-    max-width: 100%; /* Ensure the image fits within the item */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Round the image corners */
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-/* Price styles */
 #layer p {
-    margin: 5px 0; /* Margin for paragraphs */
-    font-size: 1.2em; /* Slightly larger font for brand names and prices */
-    color: #333; /* Dark gray text for readability */
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
 }
